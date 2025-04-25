@@ -11,6 +11,18 @@ This project is a simple Flask web application that displays a welcome message. 
 
 ---
 
+## 🗂️ Project Structure
+```
+flask-docker-app/
+│
+├── app.py
+├── Dockerfile
+├── requirements.txt
+└── README.md    
+```
+
+--- 
+
 ## ⚙️ Prerequisites
 
 Make sure you have Docker installed on your system.
@@ -31,20 +43,20 @@ docker --version
 docker login
 ```
 
-### 1️⃣ Clone the Repository
+### 2️⃣ Clone the Repository
 
 ```
 git clone https://github.com/your-username/flask-docker-app.git
 cd flask-docker-app
 ```
 
-### 1️⃣ Build the Docker Image
+### 3️⃣ Build the Docker Image
 
 ```
 docker build -t flask-docker-app .
 ```
 
-### 1️⃣ Run the Container
+### 4️⃣ Run the Container
 
 ```
 docker run -p 8080:5000 flask-docker-app
