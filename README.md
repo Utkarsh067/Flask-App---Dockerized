@@ -15,10 +15,10 @@ This project is a simple Flask web application that displays a welcome message. 
 ```
 flask-docker-app/
 │
+├── README.md 
 ├── app.py
-├── Dockerfile
-├── requirements.txt
-└── README.md    
+├── dockerfile
+└── requirements.txt
 ```
 
 --- 
